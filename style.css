@@ -1,5 +1,31 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+}
+.button {
+  color: blue;
+  background-color: #9e9e9e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header {
+  text-align: center;
+}
+figure {
+  font-size: medium;
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center;
+}
+#statement {
+  padding-left: 32%;
+  padding-right: 32%;
+}
+#details {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: red;
 }
